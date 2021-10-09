@@ -2,7 +2,7 @@
 <html class="no-js" lang="fr">
   <head>
     <meta charset="utf-8" />
-    <title>Le plus beau bébé</title>
+    <title>bebes</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -19,22 +19,33 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/my-css.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="Accueil.css"/>
+
 
     <meta name="theme-color" content="#fafafa" />
   </head>
 
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="galerie.html">Galerie</a></li>
-          <li><a href="tarifs.html">Tarifs</a></li>
-          <li><a href="#">À propos</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+    <header>  
+        <navbar> 
+          <ul class="nav-list">  
+            <li class="nav-item" ><a class="active" href="logo.jpg">Logo</a></li>
+            <li class="nav-item" ><a class="active" href="#">Accueil</a></li>
+            <li class="nav-item"><a href="galerie.html">Gallerie</a> </li>
+            <li class="nav-item"> <a href="tar">Tarifs</a></li>
+            <li class="nav-item"> <a href="about.html">A propos</a></li>
+            <li class="nav-item"> <a href="contact.html">Contact</a></li>
+          </ul>
+        </navbar>
+          <input type="checkbox" name="search" value="" >
+          <label class="logo"> search</label>
+         <h1> photopraphe</h1>
+        <section>
+        <figure>
+          <img src="baby.jpg" alt="baby">
+       </figure>
+        </section>
+        </header>
     <h1>À propos</h1>
 
     <main>
@@ -43,6 +54,7 @@
       </section>
 
       <article>
+        <h1>Bienvenue, je suis photographe spécialisée en grossesse, nouveaux nés, bébés et enfants à Neuville sur Escaut</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit rem
           cupiditate reprehenderit a debitis provident, laboriosam incidunt,
@@ -52,28 +64,39 @@
           laborum rerum, saepe vero. Sapiente beatae recusandae molestiae, unde
           fugit accusantium enim reprehenderit veritatis esse iste.
         </p>
-      </article>
-
-      <section>
-         <figure><img src="" alt="propos"></figure>
+        </article>
+        <section>
+          <figure><img src="" alt="propos" /></figure>
+        </section>
+       <h1>Suivez notre activité</h1>
+       <section>
+        <figure><img src="" alt="photo de galerie dans la page d'acceuil"></figure>
+        <figure><img src="" alt="photo de galerie dans la page d'acceuil"></figure>
+        <figure><img src="" alt="photo de galerie dans la page d'acceuil"></figure>
       </section>
-
-      <article>
-         <p>
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit rem
-           cupiditate reprehenderit a debitis provident, laboriosam incidunt,
-           voluptate delectus quisquam vel fugit inventore saepe eaque officia
-           excepturi itaque ducimus nulla. Lorem ipsum dolor sit amet consectetur
-           adipisicing elit. Cupiditate odio ullam aspernatur numquam ipsa
-           laborum rerum, saepe vero. Sapiente beatae recusandae molestiae, unde
-           fugit accusantium enim reprehenderit veritatis esse iste.
-         </p>
-       </article>
-
-       <article>
-          <p>Marie Hond Photographe</p>
-       </article>
+      <form action="/form.html" method="post">
+        <label for="lastname">Nom: </label>
+        <input type="text" id="lastname" required>
+        <br>
+        <label for="username">Prénom: </label>
+        <input type="text" id="username" required>
+        <br>
+        <label for="email">Adresse Mail: </label>
+        <input type="email" id="email" required>
+        <br>
+        <label for="text">Adresse Postal: </label>
+        <input type="text" id="text" required>
+        <br>
+        <label for="area">Entrez un message complémentaire:</label><br>
+        <textarea name="area" id="area" cols="50" rows="5"></textarea>
+        <br>
+        <br>
+        <button type="submit">Validez</button>
+     </form>
     </main>
+<footer> 
+
+</footer>
 
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
