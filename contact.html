@@ -26,21 +26,22 @@
 </head>
 
 <body>
-
-   <header>
-      <nav>
-         <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="galerie.html">Galerie</a></li>
-            <li><a href="tarifs.html">Tarifs</a></li>
-            <li><a href="about.html">À propos</a></li>
-            <li><a href="#">Contact</a></li>
-         </ul> 
-      </nav>
+  <header>
+   <nav> 
+      <ul class="nav-list">  
+        <li class="nav-item" ><a class="active" href="logo.jpg">Logo</a></li>
+        <li class="nav-item" ><a class="active" href="accueil.html">Accueil</a></li>
+        <li class="nav-item"><a href="galerie.html">Gallerie</a> </li>
+        <li class="nav-item"> <a href="tarifs.html">Tarifs</a></li>
+        <li class="nav-item"> <a href="A-propos.html">A propos</a></li>
+        <li class="nav-item"> <a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
    </header>
    <h1>Nos contactez</h1>
 
    <main>
+    <section class="formulaire"> 
       <form action="/form.html" method="post">
          <label for="lastname">Nom: </label>
          <input type="text" id="lastname" required>
@@ -60,16 +61,14 @@
          <br>
          <button type="submit">Validez</button>
       </form>
-   </main>
-
-   <footer>
+    </section>
+   
       <figure>
         <img src="" alt="">
       </figure>
-      <p>photopraphe</p>
-      <section>
+    </main>
+        <footer>
         <a href="#">lien</a><a href="#">lien</a><a href="#">lien</a>
-      </section>
     </footer>
 
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>

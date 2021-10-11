@@ -1,43 +1,40 @@
-nav-home{
-    padding: 0px;
-    margin: 0px;
-    text-decoration: none;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family:"Montserrat", sans-serif;
+.nav-list{
+    background-color: white;
+    box-shadow:0px 0px 10px var(--clr-gray200);
+    margin:0px;
+    padding: 1rem 0;
+    border-radius: var(--radius);
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.nav-item{
     list-style: none;
-    box-sizing: border-box;
-}
-
-nav{
-    background: #0082e6;
-    height: 80px;
-    width: 100%;
+    margin-right: 2rem;
 
 }
-label.logo{
-    color: white;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
+.nav-item a {
+    text-decoration: none;
+    color: black;
 }
-nav ul{
-    float: right;
-    margin: right 20px;
-}
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
+.nav-item a:hover{
+    color: var(--clr-primary-dark);
+    transition: all 200ms ease-in;
 
 }
-nav ul li a{
-    color: white;
-    font-size: 17px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
+.nav-item:first-child{
+    margin-right: auto;
+    margin-left: 2rem;
 }
-a.active,a:hover{
-    background:#1b9bff;
-    transition: .5s;
-}
+img{
+    width: 100px;
 
+}
