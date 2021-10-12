@@ -33,10 +33,20 @@
     margin-right: auto;
     margin-left: 2rem;
 }
-formulaire{
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-
+* {
+    box-sizing: border-box;
+  }
+.formulaire {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
+
+form > input {
+    width: 100%;
+    max-width: 500px;
+}
+
+
+
+
