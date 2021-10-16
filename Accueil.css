@@ -13,6 +13,9 @@ nav{
 nav figure{
     width: 10%;
 }
+nav img{
+    width: 130%;
+}
 nav ul {
     width: 50%;
     justify-content: space-between;
@@ -28,9 +31,13 @@ nav ul {
     align-items: center;
     
 }
-nav img{
-    width: 150%;
-}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 .nav-item{
     list-style: none;
 
@@ -57,3 +64,21 @@ nav img{
     padding: 2%;
     font-size: 1.5em;
 }
+.imgs{
+     max-width: 1200px;
+    margin: auto;
+    background-color: #f2f2f2;
+    overflow: auto;
+}
+h1{ 
+    text-align: center;
+}
+
+.photos img{
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 500px;
+        height: 450px;
+    }
+

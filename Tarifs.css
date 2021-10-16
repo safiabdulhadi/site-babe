@@ -1,20 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
 body{
-    font-family: Montserrat, sans-serif;
-    background-color: var(--clr-gray100);
+    margin: 0;
+    padding: 0;
+    font-family:"Montserrat", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+nav figure{
+    width: 10%;
+}
+nav img{
+    width: 130%;
+}
+nav ul {
+    width: 50%;
+    justify-content: space-between;
 }
 .nav-list{
     background-color: white;
-    box-shadow:0px 0px 10px var(--clr-gray200);
-    margin:0px;
-    padding: 1rem 0;
+    box-shadow: 0px 0px 10px var(--clr-gray200);
+    margin: 0px ;
+    padding: 1rem;
     border-radius: var(--radius);
     display: flex;
-    justify-content: flex-end;
+    flex-wrap:wrap;
     align-items: center;
-}
+ }
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 .nav-item{
     list-style: none;
-    margin-right: 2rem;
 
 }
 .nav-item a {
@@ -25,8 +48,4 @@ body{
     color: var(--clr-primary-dark);
     transition: all 200ms ease-in;
 
-}
-.nav-item:first-child{
-    margin-right: auto;
-    margin-left: 2rem;
 }

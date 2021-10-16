@@ -4,6 +4,12 @@
     box-sizing: border-box;
     font-family: 'poppins' ,sans-serif;
 }
+figure img{
+    width: 20%;
+}
+nav figure img {
+    width: 10%;
+}
 
 .nav-list{
     background-color: white;
@@ -28,6 +34,9 @@
     color: var(--clr-primary-dark);
     transition: all 200ms ease-in;
 
+}
+h1{
+    text-align: center;
 }
 .nav-item:first-child{
     margin-right: auto;

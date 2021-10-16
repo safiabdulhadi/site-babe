@@ -1,20 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
 body{
-    font-family: Montserrat, sans-serif;
-    background-color: var(--clr-gray100);
+    margin: 0;
+    padding: 0;
+    font-family:"Montserrat", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+nav figure{
+    width: 10%;
+}
+nav img{
+    width: 130%;
+}
+nav ul {
+    width: 50%;
+    justify-content: space-between;
 }
 .nav-list{
     background-color: white;
-    box-shadow:0px 0px 10px var(--clr-gray200);
-    margin:0px;
-    padding: 1rem 0;
+    box-shadow: 0px 0px 10px var(--clr-gray200);
+    margin: 0px ;
+    padding: 1rem;
     border-radius: var(--radius);
     display: flex;
-    justify-content: flex-end;
+    flex-wrap:wrap;
     align-items: center;
+    
 }
 .nav-item{
     list-style: none;
-    margin-right: 2rem;
 
 }
 .nav-item a {
@@ -26,7 +44,34 @@ body{
     transition: all 200ms ease-in;
 
 }
-.nav-item:first-child{
-    margin-right: auto;
-    margin-left: 2rem;
+
+.article figure{
+    display: flex;
+    flex-direction: row-reverse;
 }
+.article img {
+    width: 40%; 
+}
+.article figcaption{
+    width: 60%;
+    padding: 2%;
+    font-size: 1.5em;
+}
+.imgs{
+     max-width: 1200px;
+    margin: auto;
+    background-color: #f2f2f2;
+    overflow: auto;
+}
+h1{ 
+    text-align: center;
+}
+
+.photos img{
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 500px;
+        height: 450px;
+    }
+
